@@ -1,0 +1,26 @@
+{
+  "name": "webuyg2023",
+  "version": "1.0.0",
+  "description": "sunucutabanliuygulamasi",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkeralanli/webuygulamalari.git"
+  },
+  "keywords": [
+    "sunucutabanli"
+  ],
+  "author": "berker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkeralanli/webuygulamalari/issues"
+  },
+  "homepage": "https://github.com/berkeralanli/webuygulamalari#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
