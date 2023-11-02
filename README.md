@@ -6,7 +6,7 @@ express package:  bilgisayarı web sunucusu haline getirmek için kullanılıyor
 
 bcyrpt: şifreleme tekniği "123456"yı farklı bir şekilde veritabanına kayıt ediyor.
 sha1: de aynı görev
-md5: da aynı görec
+md5: da aynı görev
 
 npm i ... : install için i yazabiliriz
 npm init: kurmak komutu
@@ -22,11 +22,40 @@ package.json da script kısmı devstart: nodemon app.js
 
 nodemon: kodda değişiklik yapıldığı zaman tekrar sunucuyu başlatmaya gerek kalmıyor. nodemon sayesinde kendiliğinden yeniliyor
 
+Hafta 5 ///2 KASIM PERŞEMBE
+javascript *** 
+variables - 
+var function scope tur farklı bloklarda kullanılabilir
+let  block scope tur sadece scope içerisinde kullanılabilir
+var tekrar tanımlanabilir, tanım olarak değiştirilebilir.
 
+hoisting kavramı (var için) önce atama yapıp daha sonrasında tanım yapılması. Güvenlik anlamında pek iyi değil!
 
+degisken= "merhaba dünya"
+var degisken
 
+let ile bu sorun çözülüyor önce tanımlanıp sonra değer ataması yapılması zorunlu kılınıyor.
 
+sabit değişken olan const'a tekrar atama yapılamaz. Örnek veri tabanından çekilen idler', değişmesi istenmeyen veriler. Oturum açıldığında değişmesi istenmeyen tokenlar 
+
+"`${}`" kullanımı 
+var name = 'berker'
+console.log(`merhaba,${name}`);
+
+geleneksel yöntem
+function topla(a,b){
+  return a+b
+}
+
+arrow function 
+
+const topla=(a,b)=> a+b;
+
+arrow function da bir block scope tur. Dışarıya çıkarılamaz.
+
+=> fonksiyonun kısaltılmasıdır. 4 farklı fonksiyon gösterimi ile karşılaşabiliriz.
 
 
 
 */
+
