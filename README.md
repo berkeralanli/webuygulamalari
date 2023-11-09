@@ -56,6 +56,19 @@ arrow function da bir block scope tur. Dışarıya çıkarılamaz.
 => fonksiyonun kısaltılmasıdır. 4 farklı fonksiyon gösterimi ile karşılaşabiliriz.
 
 
+6. HAFTA -- API NEDIR = REQUEST - RESPONSE MANTIGI 
 
+KULLANICI VE SUNUCU ARASINDAKI ARA KATMANA API DENIR.
+Guvenlik nedeniyle api ortaya cikmistir. 
+Kullanicinin sunucuya erisilmesi istenmez bu yuzden api request response kavramini ustlenir
+
+dosyalar klasik adlariyla olusturulur. 
+
+API OLUSTURURKEN MVC(model, view, control) kullaniyoruz
+
+db baglantisi yaparaken password icin 'dotenv' kullaniyoruz
+
+MACLER ICIN MYSQL INDIR VE MYSQL WORKBENCH INDIR KULLANICI GIRISI ICIN (PHPMYADMIN GIBI)
+dotenv kurduktan sonra require edip kok dizinde .env adli bir dosya olusturduk. Bu gizli bir dosya ve kullanicinin erismeyecegi bir dizin
 */
 

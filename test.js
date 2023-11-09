@@ -139,3 +139,7 @@
 // });
 
 // console.log(sayi);
+
+// 6. HAFTA 
+
+// 
