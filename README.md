@@ -70,5 +70,8 @@ db baglantisi yaparaken password icin 'dotenv' kullaniyoruz
 
 MACLER ICIN MYSQL INDIR VE MYSQL WORKBENCH INDIR KULLANICI GIRISI ICIN (PHPMYADMIN GIBI)
 dotenv kurduktan sonra require edip kok dizinde .env adli bir dosya olusturduk. Bu gizli bir dosya ve kullanicinin erismeyecegi bir dizin
+
+'POSTMAN' sunucunda sorgu yapmamiz icin gereken bir arayuz ve biz bu arayuzu kullaniyoruz. 
+
 */
 
