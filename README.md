@@ -73,5 +73,21 @@ dotenv kurduktan sonra require edip kok dizinde .env adli bir dosya olusturduk. 
 
 'POSTMAN' sunucunda sorgu yapmamiz icin gereken bir arayuz ve biz bu arayuzu kullaniyoruz. 
 
+7.HAFTA 
+
+GET - POST - PUT - PATCH - DELETE (CRUD İŞLEMLERİ)
+
+phpmyadmin veritabanı oluşturuyoruz. "K"ullanıcılar" adı altında bir tablo
+(kullanici_adi, sifre, eposta, adi, soyadi,tel_no, cinsiyet, dogum_tarihi) degerleri de bunlar. 
+
+daha sonra giris icin login dogrulamasi yaptik controller.js de 
+kullanici kayidi icin sorgulama yaptik controller.jsde
+
+npm i bcrypt === sifreleme islemi yapiyor
+
+SINAV 
+
+
+
 */
 

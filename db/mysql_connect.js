@@ -15,7 +15,7 @@ dbConn.connect((err)=>{
   if(!err){
     console.log('veritabanina baglandi')
   }else {
-    console.log('Baglanti hatasi')
+    console.log('Baglanti hatasi'+err) 
   }
 })
 module.export=dbConn;
